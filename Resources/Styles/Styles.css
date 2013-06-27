@@ -1,0 +1,63 @@
+﻿ul.twitter {
+    list-style: none;
+}
+
+    ul.twitter.homepage {
+        margin: 10px 0;
+    }
+
+        ul.twitter.homepage .title {
+            margin: 5px 0;
+        }
+
+        ul.twitter.homepage .links {
+            margin: 0 0 0 8px;
+        }
+
+            ul.twitter.homepage .links a {
+                margin: 0 4px 0 0;
+            }
+
+    ul.twitter .links .icon {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAQCAYAAADeWHeIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEUxQjlFNjU1OEI5MTFFMEI3NkVERjAwQUJBRDlFQzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEUxQjlFNjY1OEI5MTFFMEI3NkVERjAwQUJBRDlFQzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowRTFCOUU2MzU4QjkxMUUwQjc2RURGMDBBQkFEOUVDMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowRTFCOUU2NDU4QjkxMUUwQjc2RURGMDBBQkFEOUVDMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgTCRMgAAAU5SURBVHja7FlNTBtHFJ4x2DhgCokr5BJQUakAqYcsh1yRgxqUA4hUqtor5gDJLRLHXHyJ1AuhN8eWEOYWoRzorVIrQqkElTjEPVQCSlEqKEVGhgA2WWzc7XubWTQM41mvfTEkTxrNzrz9dmfn/c9SwzDIB3p/qboSFjE6Oqpit0F7Xcbjg9DmVTfEYrGCvL2fPgveuLuhxF9mI3JV+PoaoQ2xvhRC5XnJescEwjfxrL+SdE4BKKXnGlhmmB/bkQRvOMGL5PV6B/i+BHyU750SddFo/a2nZm9ZutWupALwNDIyEi7nwYAvd5fadF1v7+/vJ9iXYMVBwPUxfB8LBU6sP+j+uKev2vcJwR7H700OUAHCJz6f715zczMZGBgga2trZHt7+146nX7mAD8h4CcA31209VfRiWs3ewk53SXY51ILEzDdXcjz8fsGOUVYtY/IBx6NRqMG7xmtfQM+Ve0j8i08//5vXvrM8cydNOXHIiF/eHiYTk5OGpR3Z/igAot+wxKx3+DlO4USH4aXvfRvloh9D/iEiIdQEYCuC4T2aS6Xazo5OanD+bGxMdLR0WEKcHx83Ly3pqYm43a7kyBMfOYKbMIO4DW4vg/4HsB/AfgmBT4J+D8AvwDDWcAn9n9uN/Eg9J4q783b1F3n81zvJB7/rbM1ZlO/k+z+KjFymXRe/2fZyBsm/vqXfyVk+yYoAX4sFXm4B5zyGKKQuXkRT/k9xGeIwlYpgcUz3y8IohjLn0UhyhQAY34R+BDg48J7TQHU1taS3t5e0tnZSVpaWgiOLTo+PiZbW1tkdXWVzM3NmWNLgIDHRHGqBHwI8HFQABP/UdfXpMrrt/2AvJ4ihysvTDwoQLzQvlmCFj2rqAAqS5d5VlEBvp2vL2jp/Fj0EIivlrgm8WPQ8tFCvWx8H+55zbyCzDWJi/kFGgq4gY2n4J55obRLMCGZSoBWK5I1v7m5eSZ8xLESMs7wUw7wIcQhPhbbiEOMJ0d//jDV8HmQUHd94ZIvd0SO1s2qMATlYZwZZlgm4GJJdPmi4O1ItHZR8I6SQHHxaK3QvoPL55zQNbuP4cZBaFjGfcVCAWGlnUioBLMzMzNkcXFR+mycR74lfIGNShAqEh+ylMYiFKaRz4UON36FuA9RLr97scE88vG+d8K/olWATINhboXbtLZiNFqYm+Uy8UIZdQJi9PLS0pKUifPIlwj/TAmAH7HBR0Thn1eCk0h2f91M/sSG88hHt+8wKT7nWflxMSUlegbes4pjO0LPwOcC/NilEKJMCd44dWvCnO2JHiRwmTL5yXL4xn9GktK3UgXAeeQXK3BVSFCFCUvAqpCgChOWgFUhwZpz2QhRTGI0Li9wrASAt1z/vKJ862ptbSWpVIpMT0+bx8TY4xjnkW9T/g3a4Adtyr/BKtchuPwkxPtdou/tmj2OcR75Tq1f3Ev+2u6ATKYETnIEmRLw1xfKQMVCMAl8gKUXLODHQmWgAt9oxXnAPxKqAF6AD8BNB1BgWPKBxS5DfxtLQ7/fjxa8ozoPAPwruF9j+CTcH4H+IZaGDJ8QzwP4fwH7c+2vGgJp7e2Bh2QzniSsMwLf9dBTl2261pAlBzu+ROOd9W7+Wy/zyaCTn0GoAHEnYUByrh+0CwMgnMDp6ekeXC6gsJjbRo+hZTKZHl3XAzZ4DfAQxMkTwMUZHi1uCPCPAa8pQ0De0A7+9a2Dq39y4+5ZrA9DlTCUPfY8hnmtlGPtSiVaCdor/A1sswkxdvwgUf/9u8DnPYDd3z8Z/zJ7gP8FGADQ6H0Wzotr+QAAAABJRU5ErkJggg==') no-repeat;
+        vertical-align: text-top;
+    }
+
+        ul.twitter .links .icon.retweet {
+            background-position: -81px -1px;
+        }
+
+    ul.twitter .links a:hover .icon.retweet {
+        background-position: -97px -1px;
+    }
+
+
+    ul.twitter .links .icon.reply {
+        background-position: 0px -1px;
+    }
+
+    ul.twitter .links a:hover .icon.reply {
+        background-position: -16px -1px;
+    }
+
+    ul.twitter.interior .title {
+        display: block;
+    }
+
+    ul.twitter.interior .date {
+        display: block;
+    }
+
+    ul.twitter.interior .links {
+        display: block;
+        padding: 4px 0 1px;
+    }
+
+    ul.twitter.interior span.separator {
+        border-bottom: 2px dotted #808080;
+        display: block;
+        margin: 10px 0 9px;
+    }
